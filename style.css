@@ -1,0 +1,37 @@
+html{
+    height:100vh;
+}
+body{
+    background-color: rgb(231, 242, 252);
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    height: 100%;
+}
+#container{
+    border:dotted rgb(252, 238, 238) 5px;
+    background-image: url('https://i.pinimg.com/736x/65/6e/b9/656eb9a5b869dd2996a8f5ccdb3e5380.jpg');
+    width: 80%;
+    box-shadow: 10px 10px hsla(27, 36%, 43%, 0.706);
+    border-radius: 10px;
+    height: 100%;
+}
+.nested_container{
+    border:solid rgb(252, 225, 245) 3px;
+    padding:20px;
+    margin: 5%;
+    background-image: url('https://i.pinimg.com/736x/62/66/5c/62665c2aae503a0a4150dcd4972b65b4.jpg');  
+    border-radius: 20px; 
+    transition: height 3s;
+}
+.nested_container p{
+    font-weight: 1000;
+    font-style: italic;
+    color: aliceblue;
+}
+.nested_container:hover{
+    height: 85%;
+}
+*{
+    box-sizing: border-box;
+}
